@@ -1,0 +1,40 @@
+.page-element{
+	position: absolute;
+}
+.row-element{
+	position: relative;
+}
+.col-element{
+	float: left;
+}
+body{
+	margin:0;
+}
+.static-collide-element{
+	position: absolute;
+	z-index: 1;
+}
+.main-element{
+	position: absolute;
+	z-index: 1;
+}
+
+.static-sprite-damage-element{
+	position: absolute;
+	z-index: 1;
+}
+
+.static-item-element{
+	position: absolute;
+	z-index: 1;
+}
+
+.text-element{
+	position: absolute;
+	z-index: 3;
+	white-space: pre-wrap;
+	font-family: impact, charcoal, sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 9pt;
+}
